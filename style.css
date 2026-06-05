@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(187, 182, 182);
+  background-color: rgb (187, 182, 182);
 }
 p {
   font-weight: bold;
@@ -8,14 +8,15 @@ p {
 h1 {
   text-align: center;
   color: white;
+  padding:50 px; 
 }
 
 .modif {
   position: relative;
-  animation: wave 0.5s infinite alternate;
+  animation: wave 0.5 s infinite alternate;
 }
 @keyframes wave {
-  form {
+  frorm {
     bottom: 5px;
   }
   to {
